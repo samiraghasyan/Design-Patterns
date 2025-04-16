@@ -18,8 +18,11 @@ try {
         '123 Main St, Tehran, Iran'
     );
 
+    echo '<br>';
     echo "Order placed successfully!\n";
+    echo '<br>';
     echo "Tracking number: " . $result['tracking_number'] . "\n";
+    echo '<br>';
     echo "Total amount: $" . $result['total_amount'] . "\n";
 
 
