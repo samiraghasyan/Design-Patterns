@@ -23,6 +23,6 @@ $cart->addItem([
 
 $cart->addItem([
     'name' => 'USB-C Charger',
-    'price' => 30.00,
+    'price' => 80.00,
     'quantity' => 2
 ]);
