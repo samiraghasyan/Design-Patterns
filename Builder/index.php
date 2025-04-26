@@ -73,6 +73,7 @@ class UserBuilder implements Builder{
 }
 
 $user = new UserBuilder();
+
 $user->setName('Samir')
      ->setFamily('Aghasian')
      ->setEmail('example@gmail.com')
